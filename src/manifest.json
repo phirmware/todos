@@ -1,0 +1,7 @@
+{
+    "name": "Todos-Keep track of your daily info",
+    "start_url": "https://phirmware.github.io/todos/",
+    "orientation": "any",
+    "scope": "/",
+    "display": "fullscreen"
+}

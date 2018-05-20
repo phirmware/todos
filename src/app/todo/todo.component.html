@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Todo List</h1>
+</div>
+<ul>
+  <a *ngFor="let todo of todos" [routerLink]="['/todo',todo._id]">
+    <li>{{todo.Name}}
+      <button (click)="deleteTodo(todo._id,todo)">delete</button>
+    </li>
+  </a>
+</ul>
+<input type="text" placeholder="Add a todo" (keyup.enter)="addTodo(todoInput)" #todoInput class="form-control">

@@ -1,0 +1,70 @@
+.container{
+    margin-top: 0px;
+    margin: 0px auto;
+    text-align: center;
+    background: linear-gradient(azure,rgb(70, 228, 228),rgb(13, 173, 173));
+    width: 60vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 15vh;
+}
+
+.container>h1{
+    margin: 0px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background: black;
+    color: azure;
+}
+
+li:hover{
+    background: black;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin: 4px auto;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    cursor: grab;
+    transition: 0.5s;
+}
+
+input{
+    display: flex;
+    width: 50vw;
+    margin: 0px auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+    outline: none;
+    margin-top: 4px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:550px){
+  li{
+      width: 80vw;
+  }
+  .container{
+      width: 100vw;
+  }
+}
